@@ -1,6 +1,6 @@
 [package]
 name = "advent2025"
-version = "0.1.0" # Version indicates the latest day completed (0.DAY)
+version = "0.2.0" # Version indicates the latest day completed (0.DAY)
 edition = "2024"
 
 [dependencies]
