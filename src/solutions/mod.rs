@@ -1,7 +1,9 @@
 mod day_01;
+mod day_02;
 use std::cell::RefCell;
 
 pub use day_01::Day01;
+pub use day_02::Day02;
 
 #[derive(Debug)]
 pub struct Solution {
