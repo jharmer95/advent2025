@@ -14,6 +14,7 @@ fn generate_solutions() -> Vec<Solution> {
     vec![
         Solution::new(Box::new(std::cell::RefCell::new(Day01::default()))),
         Solution::new(Box::new(std::cell::RefCell::new(Day02::default()))),
+        Solution::new(Box::new(std::cell::RefCell::new(Day03::default()))),
         // Add more days here as they are implemented
     ]
 }
