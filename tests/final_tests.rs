@@ -56,3 +56,21 @@ fn day03_part2() {
     let output = solution.part2();
     assert_eq!(output, "170418192256861");
 }
+
+#[test]
+fn day04_part1() {
+    let input = get_input("inputs/day_04.txt").expect("Could not parse path!");
+    let mut solution = Day04::default();
+    solution.parse_input(&input);
+    let output = solution.part1();
+    assert_eq!(output, "1384");
+}
+
+#[test]
+fn day04_part2() {
+    let input = get_input("inputs/day_04.txt").expect("Could not parse path!");
+    let mut solution = Day04::default();
+    solution.parse_input(&input);
+    let output = solution.part2();
+    assert_eq!(output, "8013");
+}
